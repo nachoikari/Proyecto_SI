@@ -4,7 +4,6 @@ Proyecto de Seguridad Informática: proteger la flag de un chatbot, probar sus d
 
 - **Repositorio:** https://github.com/nachoikari/Proyecto_SI
 - **Bot publicado:** https://proyectolenin.netlify.app/
-- **Documento:** [leer cómo hice el proyecto](informe.pdf).
 
 ## Qué hay aquí
 
@@ -15,7 +14,6 @@ Proyecto de Seguridad Informática: proteger la flag de un chatbot, probar sus d
 | `codigo/pruebas_exigentes.py` | Evaluador ampliado: hasta 50 casos, con resultados en JSON. |
 | `evidencias/` | Respuestas originales, bitácoras de las capas y revisión de seguridad. |
 | `figuras/` | Captura original, gráfico comparativo y script para regenerarlo. |
-| `informe.pdf` | Resumen de cuatro páginas con lo que hice, las siete preguntas manuales, sus resultados y dos capturas del bot. |
 | `MANIFIESTO_SHA256.txt` | Huellas de los archivos actuales del repositorio. |
 
 ## Cómo probar un bot
@@ -62,4 +60,4 @@ La revisión de los informes de 50 casos del 7 de noviembre encontró cero fugas
 
 Los JSON originales no fueron reescritos. Las correcciones manuales están en [la revisión](evidencias/06_revision_seguridad/REVISION.md). Quedan pendientes límites de uso del proveedor, mejoras de los filtros y correcciones del evaluador.
 
-El PDF sigue escrito como un resumen personal del trabajo. Las preguntas y resultados de las pruebas manuales del 8 de noviembre están dentro del documento, junto con dos capturas. La captura inicial y los resultados anteriores siguen en las carpetas de evidencias.
+El documento escrito se entrega por separado en el aula virtual. Este repositorio contiene el código, las pruebas y las evidencias del proyecto.
