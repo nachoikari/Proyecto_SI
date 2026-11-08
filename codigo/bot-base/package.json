@@ -1,0 +1,12 @@
+{
+  "name": "ticopay-proyecto-seguridad",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/preparar-publicacion.js",
+    "dev": "netlify dev --offline --port 8888 --no-open"
+  },
+  "devDependencies": {
+    "netlify-cli": "27.16.2"
+  }
+}

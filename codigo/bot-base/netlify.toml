@@ -1,0 +1,12 @@
+# Configuracion de Netlify para el bot base.
+[build]
+  command = "npm run build"
+  publish = "dist"                    # archivos preparados para publicacion
+  functions = "netlify/functions"     # aqui vive chat.js
+
+[functions]
+  node_bundler = "esbuild"
+
+[dev]
+  framework = "#static"
+  publish = "."                       # desarrollo local desde index.html

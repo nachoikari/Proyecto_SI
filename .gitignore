@@ -1,0 +1,23 @@
+# Variables privadas y configuración local
+.env
+.env.*
+!.env.example
+.netlify/
+.codex/
+
+# Dependencias y archivos generados de desarrollo
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.DS_Store
+tmp/
+
+# Archivos intermedios de LaTeX; se conservan PDF y fuentes
+*.aux
+*.log
+*.toc
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz

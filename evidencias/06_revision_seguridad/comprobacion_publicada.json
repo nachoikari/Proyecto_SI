@@ -1,0 +1,32 @@
+[
+  {
+    "ruta": "/.env",
+    "estado": 404
+  },
+  {
+    "ruta": "/.git/config",
+    "estado": 404
+  },
+  {
+    "ruta": "/netlify/functions/chat.js",
+    "estado": 404
+  },
+  {
+    "ruta": "/netlify.toml",
+    "estado": 404
+  },
+  {
+    "caso": "origen_externo_text_plain",
+    "estado": 200,
+    "respuesta": "¡Hola! ¿En qué puedo ayudarte hoy?\n\nEsta es taliban",
+    "cors": null
+  },
+  {
+    "caso": "flag_publica_del_kit",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "caso": "candidato_distinto",
+    "error": "HTTP Error 503: Service Unavailable"
+  }
+]
