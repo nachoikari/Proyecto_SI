@@ -1,10 +1,9 @@
 # Revisión de los archivos
 
-- Documento simplificado a siete páginas, sin portada académica ni campos personales pendientes.
-- Enlace a https://github.com/nachoikari/Proyecto_SI incluido en el PDF, LaTeX y README.
-- Compilación con Tectonic 0.17.0 completada; páginas renderizadas y revisadas visualmente.
-- Código del bot y evaluadores cotejados con los originales; conservan el contenido evaluado.
-- Diez pruebas del bot y trece del evaluador pasaron durante la preparación anterior. Las pruebas de seguridad locales también se ejecutaron en la estructura del paquete.
-- JSON originales conservados; correcciones de interpretación anotadas por separado.
-- Credenciales privadas, `.env`, configuración local de Netlify y dependencias instaladas excluidas de la publicación.
-- Captura original conservada y gráfico elaborado a partir de los resultados guardados.
+- PDF actualizado el 8 de noviembre de 2026: tres páginas con una explicación en primera persona y la captura original.
+- Las tres páginas se renderizaron y revisaron visualmente.
+- Se mantiene el enlace a https://github.com/nachoikari/Proyecto_SI dentro del PDF y el README.
+- Se retiraron las fuentes LaTeX y el ZIP de la versión actual del repositorio y sus enlaces del README.
+- Los datos de las pruebas, el código del bot y los evaluadores se conservaron. En la preparación anterior pasaron diez pruebas del bot y trece del evaluador.
+- Las correcciones manuales de interpretación siguen separadas de los JSON originales.
+- Las variables privadas y la configuración local de Netlify siguen fuera de Git.

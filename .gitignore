@@ -13,7 +13,12 @@ __pycache__/
 .DS_Store
 tmp/
 
-# Archivos intermedios de LaTeX; se conservan PDF y fuentes
+# Fuentes, paquetes e intermedios del documento; se conserva el PDF
+*.tex
+*.bib
+*.sty
+*.cls
+*.zip
 *.aux
 *.log
 *.toc

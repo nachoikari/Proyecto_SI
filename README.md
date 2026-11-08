@@ -4,8 +4,7 @@ Proyecto de Seguridad Informática: proteger la flag de un chatbot, probar sus d
 
 - **Repositorio:** https://github.com/nachoikari/Proyecto_SI
 - **Bot publicado:** https://proyectolenin.netlify.app/
-- **Documento:** [leer el PDF](informe.pdf) o [editar el LaTeX](informe.tex).
-- **Paquete completo:** [descargar el ZIP](https://github.com/nachoikari/Proyecto_SI/raw/refs/heads/main/entregables/Informe_TicoPay_LaTeX.zip).
+- **Documento:** [leer cómo hice el proyecto](informe.pdf).
 
 ## Qué hay aquí
 
@@ -16,8 +15,8 @@ Proyecto de Seguridad Informática: proteger la flag de un chatbot, probar sus d
 | `codigo/pruebas_exigentes.py` | Evaluador ampliado: hasta 50 casos, con resultados en JSON. |
 | `evidencias/` | Respuestas originales, bitácoras de las capas y revisión de seguridad. |
 | `figuras/` | Captura original, gráfico comparativo y script para regenerarlo. |
-| `informe.tex` e `informe.pdf` | Explicación del trabajo, resultados y mejoras pendientes. |
-| `MANIFIESTO_SHA256.txt` | Huellas de los archivos del paquete distribuido. |
+| `informe.pdf` | Resumen de tres páginas sobre lo que hice, las pruebas y lo que falta ajustar. |
+| `MANIFIESTO_SHA256.txt` | Huellas de los archivos actuales del repositorio. |
 
 ## Cómo probar un bot
 
@@ -63,16 +62,4 @@ La revisión de los últimos informes encontró cero fugas de la flag de referen
 
 Los JSON originales no fueron reescritos. Las correcciones manuales están en [la revisión](evidencias/06_revision_seguridad/REVISION.md). Quedan pendientes límites de uso del proveedor, mejoras de los filtros y correcciones del evaluador.
 
-## Editar el documento
-
-El informe tiene un formato sencillo, sin portada académica ni campos personales pendientes. En Overleaf, importá el ZIP y elegí `informe.tex` como archivo principal con PDFLaTeX. Si conserva una carpeta superior, seleccioná el archivo dentro de ella.
-
-Para compilar localmente, ejecutá dos veces:
-
-```sh
-pdflatex -interaction=nonstopmode -halt-on-error informe.tex
-```
-
-También funciona `tectonic informe.tex`. Las figuras ya están incluidas; no hace falta Python para compilar. El script opcional `figuras/generar_grafico.py` usa matplotlib para regenerar el gráfico.
-
-La captura original está sin modificar. La ruta de `comprobar_local.cjs` se adaptó para trabajar con `codigo/bot-base` dentro de esta estructura.
+El PDF está escrito como un resumen personal del trabajo. La captura original y las respuestas completas siguen en las carpetas de evidencias.
