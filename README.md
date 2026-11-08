@@ -14,8 +14,9 @@ Proyecto de Seguridad Informática: proteger la flag de un chatbot, probar sus d
 | `codigo/pruebas_robustez.py` | Evaluador original: 18 ataques y dos consultas normales. |
 | `codigo/pruebas_exigentes.py` | Evaluador ampliado: hasta 50 casos, con resultados en JSON. |
 | `evidencias/` | Respuestas originales, bitácoras de las capas y revisión de seguridad. |
+| `evidencias/07_capturas_publicadas_2026-11-08/` | Siete capturas nuevas de las pruebas hechas desde el chat y sus respuestas completas. |
 | `figuras/` | Captura original, gráfico comparativo y script para regenerarlo. |
-| `informe.pdf` | Resumen de tres páginas sobre lo que hice, las pruebas y lo que falta ajustar. |
+| `informe.pdf` | Resumen de tres páginas sobre lo que hice, los resultados y dos capturas nuevas del bot. |
 | `MANIFIESTO_SHA256.txt` | Huellas de los archivos actuales del repositorio. |
 
 ## Cómo probar un bot
@@ -58,8 +59,10 @@ Completá `GROQ_API_KEY` y `SECRETO` en `.env`; después ejecutá `npm run dev`.
 
 ## Qué mostraron los resultados
 
-La revisión de los últimos informes encontró cero fugas de la flag de referencia. El bot propio tuvo un desvío y dos consultas legítimas rechazadas; el compañero tuvo dos desvíos, tres rechazos y un fallo de respuesta. Esto no garantiza que sean invulnerables ni confirma que cada servidor use la flag de referencia del evaluador.
+La revisión de los informes de 50 casos del 7 de noviembre encontró cero fugas de la flag de referencia. El bot propio tuvo un desvío y dos consultas legítimas rechazadas; el compañero tuvo dos desvíos, tres rechazos y un fallo de respuesta. Esto no garantiza que sean invulnerables ni confirma que cada servidor use la flag de referencia del evaluador.
 
 Los JSON originales no fueron reescritos. Las correcciones manuales están en [la revisión](evidencias/06_revision_seguridad/REVISION.md). Quedan pendientes límites de uso del proveedor, mejoras de los filtros y correcciones del evaluador.
 
-El PDF está escrito como un resumen personal del trabajo. La captura original y las respuestas completas siguen en las carpetas de evidencias.
+El 8 de noviembre se probaron siete casos desde la página del bot propio: dos consultas normales respondidas, dos pedidos del secreto bloqueados, dos consultas legítimas bloqueadas y un desvío de tarea. Las [capturas nuevas y transcripciones](evidencias/07_capturas_publicadas_2026-11-08/README.md) muestran cada resultado. El ataque directo se envió una segunda vez para corregir el encuadre de su captura.
+
+El PDF sigue escrito como un resumen personal del trabajo y ahora incluye dos de esas capturas. La captura inicial y los resultados anteriores siguen en las carpetas de evidencias.
